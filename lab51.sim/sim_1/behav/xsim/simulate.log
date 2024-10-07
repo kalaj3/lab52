@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Test 1:
+num continues:           1
+sw_i: 0000000000000101, led_o: 0110001000111111
+hex_seg_left 11000000, hex_seg_right: 10000010
+hex_grid_left: 1110, hex_grid_right: 1110
+INFO: xsimkernel Simulation Memory Usage: 9304 KB (Peak: 9304 KB), Simulation CPU Usage: 11093 ms

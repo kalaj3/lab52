@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../lab51.srcs/sources_1/new/alu.sv" \
+"../../../../lab51.srcs/sources_1/new/aru.sv" \
+"../../../../lab51.srcs/sources_1/new/ben_logic.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv" \
+"../../../../lab51.srcs/sources_1/new/mux.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv" \
+"../../../../lab51.srcs/sources_1/new/regfile.sv" \
+"../../../../lab51.srcs/sources_1/new/sext.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv" \
+"../../../../../Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv" \
+"../../../../lab51.srcs/sim_1/new/testbench51.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
