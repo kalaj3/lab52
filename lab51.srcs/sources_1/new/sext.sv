@@ -29,6 +29,8 @@ module sext #(
     output logic [TARGET_WIDTH - 1:0] out
 );
 
-assign out = {{(TARGET_WIDTH-STARTING_WIDTH){in[STARTING_WIDTH-1]}},in};
+ 
+ assign       out = { { (16-STARTING_WIDTH){in[STARTING_WIDTH-1]} }, in };  // Sign extension
+    
     
 endmodule

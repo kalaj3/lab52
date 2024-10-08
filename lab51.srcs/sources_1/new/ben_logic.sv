@@ -38,17 +38,17 @@ output logic ben
     
     
     always_comb begin
-        if (bus_buffer >0) begin 
+        if (signed'(bus_buffer) >0) begin 
             n = 1'b0;
             z = 1'b0;
             p = 1'b1;
-        end else if(bus_buffer <0) begin 
+        end else if(signed'(bus_buffer) <0) begin 
             n = 1'b1;
             z = 1'b0;
             p = 1'b0;
         end else begin
-            n = 1'b1;
-            z = 1'b0;
+            n = 1'b0;
+            z = 1'b1;
             p = 1'b0;
         end
 
@@ -62,7 +62,7 @@ output logic ben
       end else if (ld_cc) begin
             nzp <= {n,z,p};
       end else if(ld_ben) begin 
-            ben = ir[11]&nzp[2] + ir[10]&nzp[1] + ir[10]&nzp[0];   
+            ben <= ir[11]&nzp[2] | ir[10]&nzp[1] | ir[9]&nzp[0];   
       end 
     
     end 

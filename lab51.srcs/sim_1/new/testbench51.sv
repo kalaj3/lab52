@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+//`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -23,8 +23,8 @@
 module testbench_51();
 
 
-timeunit 10ns;	
-timeprecision 1ns;
+timeunit 1ns;	
+timeprecision 1ps;
 
 logic clk; 
 logic reset;
@@ -64,44 +64,28 @@ processor_top dut(.*);
 initial begin: TEST_VECTORS
 
 
+#10 reset <= 1;
+#10 reset <= 0;
+sw_i <= 16'h0006;
+#10 run_i<= 1;
+#10 run_i <= 0;
 
-reset = 1;
+#50 continue_i = 1;
+#10 continue_i = 0;
+#50 sw_i <= 16'h0001;
 
-#20
-reset = 0;
+#50 continue_i = 1;
+#10 continue_i = 0;
+#50 sw_i <= 16'h0002;
 
-//test 1 : run cont cont cont cont
-$display("Test 1:");
+#50 continue_i = 1;
+#10 continue_i = 0;
 
-
-
-
-#20
-run_i = 1;
-#20
-run_i = 0;
-
-sw_i = 16'h06;
-
-
-for (int i = 0; i < 6; i++) begin
-        
-    sw_i = 16'h05;
-    #10 
-    continue_i = 1;
-    #20; 
-    continue_i = 0;
-
-    $display("num continues: %d", i+1);
-    $display("sw_i: %b, led_o: %b", sw_i, led_o);
-    $display("hex_seg_left %b, hex_seg_right: %b", hex_seg_left, hex_seg_right);
-    $display("hex_grid_left: %b, hex_grid_right: %b", hex_grid_left, hex_grid_right);
-end
+#50 sw_i <= 16'h0004;
 
 
 
-
-
+#500 $finish();
 
 end
 endmodule
