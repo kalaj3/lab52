@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct  9 13:09:07 2024
+# Process ID: 5736
+# Current directory: C:/Users/jkali/ece385/lab52
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34364 C:\Users\jkali\ece385\lab52\lab51.xpr
+# Log file: C:/Users/jkali/ece385/lab52/vivado.log
+# Journal file: C:/Users/jkali/ece385/lab52\vivado.jou
+# Running On: Jakes_ZenBook, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 34036 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jkali/ece385/lab52/lab51.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes {C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/types.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv}
+import_files -norecurse {C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/types.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv
+remove_files  C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/types.sv] -no_script -reset -force -quiet
+remove_files  {C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/types.sv}
+export_ip_user_files -of_objects  [get_files C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/pin_assignment/top.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/pin_assignment/top.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/pin_assignment/top.xdc
+import_files -fileset constrs_1 C:/Users/jkali/ece385/lab52/lab5_provided_fa24/lab5_provided_fa24/pin_assignment/top.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/jkali/ece385/lab52/lab51.srcs/sim_1/new/tb_autocount.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/jkali/ece385/lab52/lab51.srcs/sim_1/new/tb_autocount.sv
+file delete -force C:/Users/jkali/ece385/lab52/lab51.srcs/sim_1/new/tb_autocount.sv
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+launch_runs impl_1 -jobs 10
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1

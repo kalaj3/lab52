@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/alu.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/aru.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/ben_logic.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/control.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/cpu.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/cpu_to_io.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/hex_driver.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/instantiate_ram.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/load_reg.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/memory.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/mux.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/processor_top.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/regfile.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/sext.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/slc3.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/sync.sv" \
+"../../../../lab52_from_vi_email.srcs/sources_1/imports/lab5 files/test_memory.sv" \
+"../../../../lab52_from_vi_email.srcs/sim_1/new/auto_count.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

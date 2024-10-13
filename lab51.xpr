@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="U:/lab51/lab51.xpr">
+<Project Version="7" Minor="61" Path="C:/Users/jkali/ece385/lab52/lab51.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="c66fa089a0e5494ebd9170eebd68d890"/>
@@ -109,57 +109,73 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/control.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/control.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/cpu.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/cpu_to_io.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/cpu_to_io.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/hex_driver.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/hex_driver.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/types.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/types.sv">
+        <FileInfo SFType="VHeader">
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/types.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/srcs/instantiate_ram.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/instantiate_ram.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/load_reg.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/load_reg.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/memory.sv">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv">
-        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/memory.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -186,30 +202,38 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/slc3.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/slc3.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/sync.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/sync.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/processor_top.sv">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/processor_top.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv">
+      <File Path="$PSRCDIR/sources_1/imports/srcs/test_memory.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/srcs/test_memory.sv"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -224,8 +248,10 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="C:/Users/jacobak3/Downloads/lab5_provided_fa24/lab5_provided_fa24/pin_assignment/top.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/pin_assignment/top.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/lab5_provided_fa24/lab5_provided_fa24/pin_assignment/top.xdc"/>
+          <Attr Name="ImportTime" Val="1728497332"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -249,14 +275,6 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sim_1/new/tb_selfmod.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/new/tb_autocount.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
